@@ -22,6 +22,17 @@ public class Main {
             System.out.print("results = ");
             System.out.println(equation.getResult());
         }
+
+        System.out.println();
+        System.out.println("Using Overloads");
+        System.out.println();
+        double leftDouble = 9.0d;
+        double rightDouble = 4.0d;
+        MathEquation equationOverload =  new MathEquation('d');
+        equationOverload.execute(leftDouble,rightDouble);
+        System.out.print("Result =  ");
+        System.out.println(equationOverload.getResult());
+
     }
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode) {
