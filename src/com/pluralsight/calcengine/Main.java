@@ -40,6 +40,10 @@ public class Main {
         System.out.print("Result =  ");
         System.out.println(equationOverload.getResult());
 
+        equationOverload.execute((double) leftInt,rightInt);
+        System.out.print("Result =  ");
+        System.out.println(equationOverload.getResult());
+
     }
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode) {
